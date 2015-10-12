@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="cs.tru.myapplication.Description"
+    android:background="#ff8aff20">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/hello_blank_fragment"
+        android:id="@+id/textView02"
+        android:layout_gravity="left|top"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:maxLines="10"
+        android:scrollbars="vertical" />
+</LinearLayout>

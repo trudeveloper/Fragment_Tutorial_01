@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="cs.tru.myapplication.MyButtons"
+    android:background="#ff08171f"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/Calgary"
+            android:id="@+id/butn1"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/Vancouver"
+        android:id="@+id/butn2"
+        android:layout_weight="1"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/Victoria"
+        android:id="@+id/butn3"
+        android:layout_weight="1"
+        android:textSize="20sp" />
+
+</LinearLayout>
